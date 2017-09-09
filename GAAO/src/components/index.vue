@@ -1,0 +1,40 @@
+<template>
+	<router-view></router-view>
+</template>
+<script>
+	export default{
+		name:"index"
+	}
+</script>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e9e7ec;
+    color:#888 ;
+    font-family:  MicrosoftYaHei  !important;
+}
+
+/*         定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸  
+::-webkit-scrollbar  
+{  
+    width: 0px;  
+    height: 0px;  
+    background-color: #F5F5F5;  
+}  
+  
+定义滚动条轨道 内阴影+圆角  
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+定义滑块 内阴影+圆角  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #555;  
+}   */
+</style>
